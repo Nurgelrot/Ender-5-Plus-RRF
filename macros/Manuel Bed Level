@@ -1,0 +1,11 @@
+M671 X28:328:28:328 Y52:52:308:308 P0.7
+
+G28 Z                                                               ; Home Z
+;  G30 P0 X40 Y183 Z-9999 ; Front Left
+;  G30 P1 X323 Y183 Z-9999 S2;
+G30 P0 X40 Y52 Z-99999 ; probe near an adjusting screw              ; Front left screw
+G30 P1 X323 Y52 Z-99999 ; probe near an adjusting screw             ; Front right screw
+G30 P2 X40 Y308 Z-99999 ; probe near an adjusting screw             ; Rear left screw
+G30 P3 X323 Y308 Z-99999 S4 ; probe near an adjusting screw         ; Rear right screw
+
+G28 Z                                                               ; Home Z
